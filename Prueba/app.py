@@ -54,7 +54,6 @@ def main():
     # Cargar los datos
     try:
         data = load_and_clean_data(DATA_URL)
-        st.sidebar.success("✅ Data loaded successfully.")
     except Exception as e:
         st.error(f"🔴 Error loading data: {e}")
         return

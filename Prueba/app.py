@@ -14,7 +14,7 @@ PALETTE_COLOURS = ["#1a6b3c", "#e07b39", "#3a7ebf", "#c94040", "#8e44ad"]
 PRIMARY_COLOR = PALETTE_COLOURS[0]
 
 DATA_URL = (
-    "https://raw.githubusercontent.com/figueraandrea25-hub/alcohol-consumption-analysis/refs/heads/andrea-dev/dataset/alcohol_data.csv"
+    "https://github.com/figueraandrea25-hub/alcohol-consumption-analysis/blob/main/alcohol_data.csv"
 )
 
 

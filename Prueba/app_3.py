@@ -139,7 +139,6 @@ def main():
 
     try:
         data = cargar_y_preparar_datos(DATA_URL)
-        st.sidebar.success("✅ Datos cargados correctamente")
     except Exception as e:
         st.error(f"No se pudo cargar la información: {e}")
         return

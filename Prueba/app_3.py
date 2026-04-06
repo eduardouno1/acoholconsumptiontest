@@ -6,7 +6,7 @@ import plotly.express as px
 # Configuración general de la app
 # ==========================================================
 st.set_page_config(
-    page_title="Dashboard de Consumo de Alcohol por Regiones",
+    page_title="Dashboard Comparativo Consumo de Alcohol Regiones a nivel Mundial",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -131,8 +131,7 @@ def tabla_formateada(df: pd.DataFrame, columnas_decimales=None):
 # ==========================================================
 def main():
     st.title("🌍 Dashboard de Consumo de Alcohol por Regiones")
-    st.markdown(
-        "Análisis interactivo del consumo de alcohol per cápita **solo entre 2015 y 2019**, "
+    st.markdown("Análisis interactivo del consumo de alcohol per cápita **en el periodo 2015-2019**, "
         "organizado por regiones y países."
     )
     st.markdown("---")
